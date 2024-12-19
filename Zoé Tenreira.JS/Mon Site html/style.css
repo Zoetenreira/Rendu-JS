@@ -1,0 +1,133 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.d-flex{
+    display: flex;
+}
+header {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+}
+.w-50{
+    width: 50%;
+}
+.w-25{
+    width: 25%;
+}
+.logo img {
+    width: 200px;
+}
+.marg {
+    margin: 50px;
+}
+.h-400 {
+    height: 400px;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-between{
+    justify-content: space-between;
+    
+}
+.align-items-center{
+    align-items: center;
+}
+.align-self-center {
+    align-self: center;
+}
+.justify-self-end {
+    justify-self: flex-end;
+}
+.justify-self-start {
+    justify-self: flex-start;
+}
+.justify-self-center{
+    justify-self: center;
+}
+nav {
+    margin-left: auto;
+}
+.flex-column{
+    flex-direction: column;
+}
+.justify-content-center {
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+h3{
+    text-decoration: underline;
+    color: pink;
+}
+body{
+    color: rgb(0, 221, 255);
+}
+footer{
+    color: black;
+}
+h1{
+    text-decoration: underline;
+    color: pink;
+    
+}
+.h-250{
+    height: 250px;
+}
+
+main {
+    padding: 20px
+}
+ul{
+    list-style: none;
+}
+.carte {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.marg-interne {
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Styles globaux pour le mode Light (par défaut) */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Formulaire */
+.form-container {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+

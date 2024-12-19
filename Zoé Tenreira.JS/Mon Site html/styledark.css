@@ -1,0 +1,64 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 70px;
+}
+
+hr {
+    width: 200px;
+}
+
+.contenu {
+    padding: 50px 10%;
+    text-align: justify;
+}
+
+.btn-toggle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #333;  
+    color: #fff;    
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s; 
+}
+
+body.light {
+    background: #fff;  
+    color: #333;        
+    transition: background 0.3s, color 0.3s; 
+}
+
+body.dark {
+    background: #333;  
+    color: #fff;       
+    transition: background 0.3s, color 0.3s; 
+}
+
+body.dark .btn-toggle {
+    background-color: #fff;  
+    color: #333;             
+}
+
+.btn-toggle:hover {
+    background: #444;  
+}
+
+a {
+    color: #007BFF;  
+}
+
+a:hover {
+    color: #0056b3;  
+}
